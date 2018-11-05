@@ -25,5 +25,5 @@ function encolhe(div){
     console.log('Encolheu!');
     div.style.transform = 'scale(1,1)';
     div.style.transition = "2s";
-    div.style.zIndex = "0";
+    div.style.zIndex = "9";
 }
