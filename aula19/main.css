@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.linha1{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 252, 255);
+}
+
+.linha1 h1 {
+    font-size: 300%;
+}
+
+.linha2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://cdn.pixabay.com/photo/2014/04/04/21/57/blue-313995_960_720.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.linha2 p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+    text-align: center;
+}
+
+.linha3{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(192, 252, 255);
+}
+
+.fotos{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cortar{
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.linha3 img{
+    width:100%;
+    height:auto;
+    margin-top: -10px;
+}
+
+.linha4{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+}
+
+.secContatos{
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 10px;
+}
+
+.secContatos h2{
+    font-size: 200%;
+    color: black;
+}
+
+.secContatos a{
+    font-size: 200%;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.secContatos div{
+    display: flex;
+
+    align-items: center;
+}
+.secContatos img{
+    width: 12%;
+    height: auto;
+    margin-right: 10px;
+}
